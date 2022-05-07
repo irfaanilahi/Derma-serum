@@ -1,0 +1,31 @@
+header {
+  .header-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    span {
+      font-size: 3rem;
+    }
+    ul{
+      margin: 0px;
+      padding: 0px;
+      li {
+        display: inline;
+        margin: 1rem;
+        a{
+          text-decoration: none;
+          font-weight: 700;
+          color: black;
+          padding: 1rem;
+        }
+      }
+    }
+  }
+  
+}
+
+// a {
+//   &:not(:nth-last-child(1)){
+//     background-color: red;
+//   }
