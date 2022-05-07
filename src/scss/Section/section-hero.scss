@@ -1,0 +1,35 @@
+.section-hero {
+  height: 35.3rem;
+  background: rgb(224,223,223);
+  background: linear-gradient(0deg, rgba(224,223,223,1) 21%, rgba(246,246,246,1) 44%);
+  .hero-container {
+    margin-top: 2.5rem;
+    .top-text{
+            margin-top: 2.5rem;
+            font-size: 20px;
+    }
+    h1{
+        font-size: 3.3rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+
+    }
+    .stars-img{
+      margin-top: 11.5rem;
+    }
+    .model-img{
+      position: absolute;
+      top: 46px;
+      padding: 50px 0px 50px 70px;
+      img{
+        width: 100%;
+      }
+    }
+    .hero-badge{
+      position: absolute;
+      bottom: 0rem;
+      top: 32.5rem;
+      left: 70rem;
+    }
+  }
+}

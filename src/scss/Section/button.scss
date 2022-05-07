@@ -1,0 +1,23 @@
+.btn {
+  padding: 13px 18px 16px 18px;
+  margin-top: 1rem;
+  border-radius: 10px;
+  border: 0;
+  background: black;
+  color: white;
+  font-weight: 500;
+  font-family: system-ui;
+  transition: 0.2s ease-in-out;
+  box-shadow: 0px 10px 30px -10px #595959;
+  p {
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px 32px 0px 32px;
+    font-weight: 400;
+    font-family: system-ui;
+  }
+  :hover {
+   color: rgb(70, 75, 52);
+   transform: translateY(-3px);
+ }
+}
