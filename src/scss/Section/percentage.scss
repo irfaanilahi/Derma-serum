@@ -1,26 +1,77 @@
 .percentage-section {
   margin-top: 3.5rem;
-  .crl {
-
-    span {
-    
-    }
+  .circle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     .first {
+      width: 11rem;
+      height: 11rem;
+      border: solid;
+      border-radius: 50%;
+      background-color: white;
+
+      h2 {
+        font-size: 4.7rem;
+        font-weight: 700;
+        margin: 27px 0px 0px 11px;
+      }
 
       p {
-
+        font-size: 2rem;
+        font-weight: 500;
+        margin: -16px 0px 0px 48px;
       }
+      
     }
     .second {
+      width: 11rem;
+      height: 11rem;
+      border: solid;
+      border-radius: 50%;
+      background-color: white;
+
+      h2 {
+        font-size: 4.7rem;
+        font-weight: 700;
+        margin: 27px 0px 0px 11px;
+      }
 
       p {
-
+        font-size: 2rem;
+        font-weight: 500;
+        margin: -16px 0px 0px 48px;
+      }
     }
-}
     .third {
+      width: 11rem;
+      height: 11rem;
+      border: solid;
+      border-radius: 50%;
+      background-color: white;
+
+      h2 {
+        font-size: 4.7rem;
+        font-weight: 700;
+        margin: 27px 0px 0px 11px;
+      }
 
       p {
+        font-size: 2rem;
+        font-weight: 500;
+        margin: -16px 0px 0px 48px;
+      }
+    }
+    .circle-text{
+      h5 {
+        font-weight: 500;
+        margin: 36px 0px 0px 26px;
+      }
 
+      p {
+        font-size: 13px;
+        font-weight: 500;
+        margin: 0px 0px 0px 37px;
       }
     }
   }
