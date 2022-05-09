@@ -1,0 +1,105 @@
+.bottle-section {
+  margin-top: 4rem;
+  height: 33rem;
+  background: rgb(224, 223, 223);
+  background: linear-gradient(
+    0deg,
+    rgba(224, 223, 223, 1) 21%,
+    rgba(246, 246, 246, 1) 44%
+  );
+  margin-bottom: 6rem;
+  .bottle-img {
+    padding: 35px;
+    img {
+      width: 100%;
+    }
+  }
+  .bottle-text {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    h6 {
+      letter-spacing: 0.3rem;
+      font-size: 15px;
+      font-weight: 800;
+      color: #d19836;
+    }
+    h2 {
+      font-size: 2.8rem;
+      font-weight: 700;
+    }
+    p {
+      padding-right: 12rem;
+    }
+  }
+  .boxes {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: 6rem;
+    justify-content: flex-start;
+    .product-box1 {
+      width: 17.5rem;
+      height: 11rem;
+      background-color: brown;
+      margin-right: 1.5rem;
+      border-radius: 5%;
+      background-color: white;
+      box-shadow: 1px 0px 4px lightgrey;
+      .first-object-img {
+        background-color: #e3c276d9;
+        border-radius: 50%;
+        padding: 0.8rem;
+        display: flex;
+        justify-content: center;
+        img {
+          width: 80%;
+        }
+      }
+      .first-object-heading{
+        h6{
+          font-weight: 800;
+        }
+      }
+      .first-object-text{
+        margin-top: 4px;
+        ul{
+          li{
+          font-size: 0.9rem;
+          }
+        }
+      }
+    }
+    .product-box2 {
+      width: 17.5rem;
+      height: 11rem;
+      background-color: burlywood;
+      margin-left: 1.5rem;
+      border-radius: 5%;
+      background-color: white;
+      box-shadow: 1px 1px 6px lightgrey;
+      .first-object-img {
+        background-color: #e3c276d9;;
+        border-radius: 50%;
+        padding: 0.5rem;
+        display: flex;
+        justify-content: center;
+        img {
+          width: 80%;
+        }
+      }
+      .first-object-heading{
+        h6{
+          font-weight: 800;
+        }
+      }
+      .first-object-text{
+        margin-top: 4px;
+        ul{
+          li{
+          font-size: 0.9rem;
+          }
+        }
+      }
+    }
+  }
+}
