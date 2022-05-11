@@ -1,10 +1,10 @@
 .percentage-section {
-  margin-top: 4.5rem;
-  margin-bottom: 7rem;
+  margin-bottom: 6rem;
   .circle {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+
     .first {
       width: 11rem;
       height: 11rem;
@@ -23,7 +23,6 @@
         font-weight: 500;
         margin: -16px 0px 0px 48px;
       }
-      
     }
     .second {
       width: 11rem;
@@ -63,7 +62,7 @@
         margin: -16px 0px 0px 48px;
       }
     }
-    .circle-text{
+    .circle-text {
       h5 {
         font-weight: 500;
         margin: 36px 0px 0px 26px;

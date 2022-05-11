@@ -1,0 +1,40 @@
+.derma-background {
+  background-color: #f2f2f2;
+  padding: 4rem 0rem 0rem 0rem;
+  .derma-pack-section {
+    //   background: rgb(224, 223, 223);
+    //   background: linear-gradient(
+    //     0deg,
+    //     rgba(224, 223, 223, 1) 0%,
+    //     rgba(246, 246, 246, 1) 0%
+    //   );
+    background-image: url("../images/content/dema-pack.png");
+    background-repeat: no-repeat;
+    padding-bottom: 3.8rem;
+    .derma-pack-heading {
+      h1 {
+        font-size: 3.3rem;
+        font-weight: 700;
+      }
+    }
+    .derma-pack-badges-img {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 3rem;
+      .first-badge {
+        img {
+        }
+      }
+      .second-badge {
+        img {
+        }
+      }
+    }
+    .derma-pack-img {
+      background-size: cover;
+      /* height: 55rem; */
+      background-position: bottom right;
+      padding-bottom: 34rem;
+    }
+  }
+}

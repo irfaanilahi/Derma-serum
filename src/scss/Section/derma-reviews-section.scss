@@ -1,6 +1,18 @@
-.derma-magic-section {
+.derma-reviews-section {
   margin-bottom: 4rem;
-  .derma-magic-text {
+  .derma-reviews-img {
+    background-color: #e7e7e7;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    width: 22.2rem;
+    height: 23rem;
+    img {
+      position: relative;
+      right: 1rem;
+    }
+  }
+  .derma-reviews-text {
     h6 {
       letter-spacing: 0.3rem;
       font-size: 15px;
@@ -17,13 +29,6 @@
 
     p {
       font-size: 1.1rem;
-    }
-  }
-  .derma-magic-img {
-    display: flex;
-    justify-content: center;
-    img {
-      width: 80%;
     }
   }
 }
