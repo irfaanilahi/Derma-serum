@@ -1,12 +1,12 @@
-.docter-section {
-  margin-bottom: 4rem;
+.resident-doctor-section {
+  margin-bottom: 5rem;
 
-  .docter-background {
+  .resident-doctor-background {
     background-color: #faebd7ba;
     border-radius: 40px;
     padding: 4rem 2rem 4rem 3rem;
 
-    .docter-text {
+    .resident-doctor-text {
       h6 {
         letter-spacing: 0.3rem;
         font-size: 15px;
@@ -21,13 +21,16 @@
         padding-right: 5px;
         margin-bottom: 1.5rem;
       }
+      h5 {
+        font-weight: 700;
+      }
 
       p {
         font-size: 1.1rem;
       }
     }
 
-    .docter-img {
+    .resident-doctor-img {
       display: flex;
       justify-content: center;
 
