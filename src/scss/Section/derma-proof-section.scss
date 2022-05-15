@@ -7,139 +7,195 @@
       margin: 1.5rem 0rem 3rem 0rem;
     }
   }
-  .proof-1-img {
-    img {
-      width: 100%;
+  .first-proof {
+    @include media-breakpoint-down(md) {
+      .row {
+        flex-direction: column-reverse;
+      }
+    }
+    .proof-1-img {
+      img {
+        width: 100%;
+        border-radius: 26px;
+      }
+    }
+    .proof-1-text {
+      padding: 1.5rem;
+      padding-left: 3rem;
       border-radius: 26px;
+      background-color: #d3d3d385;
+      position: relative;
+      right: 3rem;
+      z-index: -1;
+      box-shadow: 2px 7px 12px 0px #80808096;
+      h5 {
+        font-size: 1.5rem;
+        color: #d19836;
+      }
+      p {
+        font-size: 1.1rem;
+      }
+      @include media-breakpoint-down(md) {
+        position: relative;
+        right: 0;
+      }
     }
   }
-  .proof-1-text {
-    padding: 1.5rem;
-    padding-left: 3rem;
-    border-radius: 26px;
-    background-color: #d3d3d385;
-    position: relative;
-    right: 3rem;
-    z-index: -1;
-    box-shadow: 2px 7px 12px 0px #80808096;
-    h5 {
-      font-size: 1.5rem;
-      color: #d19836;
+  .second-proof {
+    .proof-2-img {
+      img {
+        width: 100%;
+        border-radius: 26px;
+      }
     }
-    p {
-      font-size: 1.1rem;
-    }
-  }
-  .proof-2-img {
-    img {
-      width: 100%;
+    .proof-2-text {
+      padding: 1.5rem;
       border-radius: 26px;
+      background-color: #d3d3d385;
+      position: relative;
+      left: 3rem;
+      z-index: -1;
+      box-shadow: 2px 7px 12px 0px #80808096;
+      h5 {
+        font-size: 1.5rem;
+        color: #d19836;
+      }
+      p {
+        font-size: 1.1rem;
+      }
+      @include media-breakpoint-down(md) {
+        position: relative;
+        left: 0;
+      }
     }
   }
-  .proof-2-text {
-    padding: 1.5rem;
-    border-radius: 26px;
-    background-color: #d3d3d385;
-    position: relative;
-    left: 3rem;
-    z-index: -1;
-    box-shadow: 2px 7px 12px 0px #80808096;
-    h5 {
-      font-size: 1.5rem;
-      color: #d19836;
+  .third-proof {
+    @include media-breakpoint-down(md) {
+      .row {
+        flex-direction: column-reverse;
+      }
     }
-    p {
-      font-size: 1.1rem;
+    .proof-3-img {
+      img {
+        width: 100%;
+        border-radius: 26px;
+      }
     }
-  }
-  .proof-3-img {
-    img {
-      width: 100%;
+    .proof-3-text {
+      padding: 1.5rem;
+      padding-left: 3rem;
       border-radius: 26px;
+      background-color: #d3d3d385;
+      position: relative;
+      right: 3rem;
+      z-index: -1;
+      box-shadow: 2px 7px 12px 0px #80808096;
+      h5 {
+        font-size: 1.5rem;
+        color: #d19836;
+      }
+      p {
+        font-size: 1.1rem;
+      }
+      @include media-breakpoint-down(md) {
+        position: relative;
+        right: 0;
+      }
     }
   }
-  .proof-3-text {
-    padding: 1.5rem;
-    padding-left: 3rem;
-    border-radius: 26px;
-    background-color: #d3d3d385;
-    position: relative;
-    right: 3rem;
-    z-index: -1;
-    box-shadow: 2px 7px 12px 0px #80808096;
-    h5 {
-      font-size: 1.5rem;
-      color: #d19836;
+  .forth-proof {
+    .proof-4-img {
+      img {
+        width: 100%;
+        border-radius: 26px;
+      }
     }
-    p {
-      font-size: 1.1rem;
-    }
-  }
-  .proof-4-img {
-    img {
-      width: 100%;
+    .proof-4-text {
+      padding: 1.5rem;
       border-radius: 26px;
+      background-color: #d3d3d385;
+      position: relative;
+      left: 3rem;
+      z-index: -1;
+      box-shadow: 2px 7px 12px 0px #80808096;
+      @include media-breakpoint-down(md) {
+        position: relative;
+        left: 0;
+      }
+
+      h5 {
+        font-size: 1.5rem;
+        color: #d19836;
+      }
+      p {
+        font-size: 1.1rem;
+      }
+      @include media-breakpoint-down(md) {
+        position: relative;
+        left: 0;
+      }
     }
   }
-  .proof-4-text {
-    padding: 1.5rem;
-    border-radius: 26px;
-    background-color: #d3d3d385;
-    position: relative;
-    left: 3rem;
-    z-index: -1;
-    box-shadow: 2px 7px 12px 0px #80808096;
-    h5 {
-      font-size: 1.5rem;
-      color: #d19836;
+  .fifth-proof {
+    @include media-breakpoint-down(md) {
+      .row {
+        flex-direction: column-reverse;
+      }
     }
-    p {
-      font-size: 1.1rem;
+    .proof-5-img {
+      img {
+        width: 100%;
+        border-radius: 26px;
+      }
     }
-  }
-  .proof-5-img {
-    img {
-      width: 100%;
+    .proof-5-text {
+      padding: 1.5rem;
+      padding-left: 3rem;
       border-radius: 26px;
+      background-color: #d3d3d385;
+      position: relative;
+      right: 3rem;
+      z-index: -1;
+      box-shadow: 2px 7px 12px 0px #80808096;
+      h5 {
+        font-size: 1.5rem;
+        color: #d19836;
+      }
+      p {
+        font-size: 1.1rem;
+      }
+      @include media-breakpoint-down(md) {
+        position: relative;
+        right: 0;
+      }
     }
   }
-  .proof-5-text {
-    padding: 1.5rem;
-    padding-left: 3rem;
-    border-radius: 26px;
-    background-color: #d3d3d385;
-    position: relative;
-    right: 3rem;
-    z-index: -1;
-    box-shadow: 2px 7px 12px 0px #80808096;
-    h5 {
-      font-size: 1.5rem;
-      color: #d19836;
+  .sixth-proof {
+    .proof-6-img {
+      img {
+        width: 100%;
+        border-radius: 26px;
+      }
     }
-    p {
-      font-size: 1.1rem;
-    }
-  }
-  .proof-6-img {
-    img {
-      width: 100%;
+    .proof-6-text {
+      padding: 1.5rem;
       border-radius: 26px;
-    }
-  }
-  .proof-6-text {
-    padding: 1.5rem;
-    border-radius: 26px;
-    background-color: #d3d3d385;
-    position: relative;
-    left: 3rem;
-    z-index: -1;
-    box-shadow: 2px 7px 12px 0px #80808096;
-    h5 {
-      font-size: 1.5rem;
-      color: #d19836;
-    }
-    p {
-      font-size: 1.1rem;
+      background-color: #d3d3d385;
+      position: relative;
+      left: 3rem;
+      z-index: -1;
+      box-shadow: 2px 7px 12px 0px #80808096;
+      h5 {
+        font-size: 1.5rem;
+        color: #d19836;
+      }
+      p {
+        font-size: 1.1rem;
+      }
+      @include media-breakpoint-down(md) {
+        position: relative;
+        left: 0;
+      }
     }
   }
 }

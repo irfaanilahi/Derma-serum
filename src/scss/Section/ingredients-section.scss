@@ -26,12 +26,25 @@
       font-weight: 800;
       color: #d19836;
       padding-top: 1.5rem;
+      @include media-breakpoint-down(md) {
+        padding-top: 0.5rem;
+      }
+    }
+    @include media-breakpoint-down(md) {
+      margin-bottom: 2rem;
     }
   }
 
   .vitamin-c-img {
+    @include media-breakpoint-down(lg) {
+      margin-left: 0.5rem;
+    }
+
+    @include media-breakpoint-down(md) {
+      margin-left: inherit;
+    }
+
     img {
-      width: 70%;
       border-radius: 50%;
     }
   }
@@ -43,6 +56,13 @@
       font-weight: 800;
       color: #d19836;
       padding-top: 1.5rem;
+      @include media-breakpoint-down(md) {
+        padding-top: 0.5rem;
+      }
+    }
+
+    @include media-breakpoint-down(md) {
+      margin-bottom: 2rem;
     }
   }
 
@@ -59,6 +79,13 @@
       font-weight: 800;
       color: #d19836;
       padding-top: 1.5rem;
+      @include media-breakpoint-down(md) {
+        padding-top: 0.5rem;
+      }
+    }
+
+    @include media-breakpoint-down(md) {
+      margin-bottom: 2rem;
     }
   }
 
@@ -75,6 +102,13 @@
       font-weight: 800;
       color: #d19836;
       padding-top: 1.5rem;
+      @include media-breakpoint-down(md) {
+        padding-top: 0.5rem;
+      }
+    }
+
+    @include media-breakpoint-down(md) {
+      margin-bottom: 2rem;
     }
   }
 }

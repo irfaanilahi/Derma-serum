@@ -1,7 +1,17 @@
 .derma-power-section {
+  @include media-breakpoint-down(md) {
+    .row {
+      flex-direction: column-reverse;
+    }
+  }
   margin-bottom: 5rem;
   .derma-power-img {
+    @include media-breakpoint-down(md) {
+      display: flex;
+      justify-content: center;
+    }
     img {
+      width: 100%;
     }
   }
   .derma-power-text {
@@ -21,6 +31,9 @@
 
     p {
       font-size: 1.1rem;
+      @include media-breakpoint-down(md) {
+        margin-bottom: 1.5rem;
+      }
     }
   }
 }

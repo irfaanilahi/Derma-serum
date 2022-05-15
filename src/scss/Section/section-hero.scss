@@ -1,6 +1,5 @@
 .section-hero {
   margin-bottom: 4rem;
-  height: 33rem;
   background: rgb(224, 223, 223);
   background: linear-gradient(
     0deg,
@@ -8,6 +7,9 @@
     rgba(246, 246, 246, 1) 44%
   );
   .hero-container {
+    background-image: url("../images/content/model.png");
+    background-repeat: no-repeat;
+    background-position: right;
     padding-top: 2.5rem;
     .top-text {
       font-size: 20px;
@@ -19,20 +21,6 @@
     }
     .stars-img {
       margin-top: 7.5rem;
-    }
-    .hero-imgs {
-      .model-img {
-        position: relative;
-        bottom: 4.8rem;
-        img {
-          width: 100%;
-        }
-      }
-      .hero-badge {
-        position: absolute;
-        top: 31rem;
-        right: 11rem;
-      }
     }
   }
 }
