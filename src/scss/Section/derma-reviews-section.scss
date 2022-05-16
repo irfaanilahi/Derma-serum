@@ -3,14 +3,8 @@
   .derma-reviews-img {
     background-color: #e7e7e7;
     border-radius: 50%;
-    // position: relative;
-    // overflow: hidden;
-    // width: 22.2rem;
-    // height: 23rem;
     img {
       width: 100%;
-      // position: relative;
-      // right: 1rem;
       border-radius: 50%;
     }
   }
@@ -31,6 +25,11 @@
 
     p {
       font-size: 1.1rem;
+    }
+  }
+  @include media-breakpoint-down(md) {
+    .row {
+      flex-direction: column-reverse;
     }
   }
 }
