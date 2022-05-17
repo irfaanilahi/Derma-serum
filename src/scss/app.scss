@@ -1,61 +1,24 @@
-/* By Athlon Front-End Team */
-
-/* Core variables */
+/* Utils */
 @import "~bootstrap";
-
-/* Core variables */
 @import "base/vars";
 
-/* Demo Page styles */
-@import "demo";
-
-// header
+// Layout
 @import "./Section/header";
-
-// section hero
-@import "./Section/section-hero.scss";
-
-// button
-@import "./Section/button.scss";
-
-// percentage
-@import "./Section/percentage.scss";
-
-// Bottle section
-@import "./Section/bottle-section.scss";
-
-// Derma magic section
-@import "./Section/derma-magic-section.scss";
-
-// Derma pack section
-@import "./Section/derma-pack-section.scss";
-
-// Derma reviews section
-@import "./Section/derma-reviews-section.scss";
-
-// Ingredients section
-@import "./Section/ingredients-section.scss";
-
-// Docter section
-@import "./Section/doctor-section.scss";
-
-// Derma proof section
-@import "./Section/derma-proof-section.scss";
-
-// Derma power section
-@import "./Section/derma-power-section.scss";
-
-// Resident doctor section
-@import "./Section/resident-doctor-section.scss";
-
-// Derma use section
-@import "./Section/derma-use-section.scss";
-
-// Footer section
 @import "./Section/footer-section.scss";
 
-// @include media-breakpoint-up(sm) { ... }
-// @include media-breakpoint-up(md) { ... }
-// @include media-breakpoint-up(lg) { ... }
-// @include media-breakpoint-up(xl) { ... }
-// @include media-breakpoint-up(xxl) { ... }
+// Components
+@import "./Section/button.scss";
+
+// Sections
+@import "./Section/section-hero.scss";
+@import "./Section/percentage.scss";
+@import "./Section/bottle-section.scss";
+@import "./Section/derma-magic-section.scss";
+@import "./Section/derma-pack-section.scss";
+@import "./Section/derma-reviews-section.scss";
+@import "./Section/ingredients-section.scss";
+@import "./Section/doctor-section.scss";
+@import "./Section/derma-proof-section.scss";
+@import "./Section/derma-power-section.scss";
+@import "./Section/resident-doctor-section.scss";
+@import "./Section/derma-use-section.scss";

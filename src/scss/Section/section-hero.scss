@@ -1,26 +1,32 @@
-.section-hero {
-  margin-bottom: 4rem;
+.b-color {
   background: rgb(224, 223, 223);
   background: linear-gradient(
     0deg,
     rgba(224, 223, 223, 1) 21%,
     rgba(246, 246, 246, 1) 44%
   );
-  .hero-container {
+  .section-hero {
+    margin-bottom: 4rem;
     background-image: url("../images/content/model.png");
     background-repeat: no-repeat;
     background-position: right;
-    padding-top: 2.5rem;
-    .top-text {
-      font-size: 20px;
-    }
-    h1 {
-      font-size: 3.3rem;
-      font-weight: 700;
-      margin-bottom: 1rem;
-    }
-    .stars-img {
-      margin-top: 7.5rem;
+    background-size: contain;
+    padding: 5rem;
+
+    .hero-container {
+      .top-text {
+        font-size: 20px;
+      }
+
+      h1 {
+        font-size: 3.3rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+      }
+
+      .stars-img {
+        margin-top: 7.5rem;
+      }
     }
   }
 }
