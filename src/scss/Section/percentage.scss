@@ -1,5 +1,6 @@
 .percentage-section {
   margin-bottom: 6rem;
+
   .circle {
     display: flex;
     flex-direction: row;
@@ -16,14 +17,30 @@
         font-size: 4.7rem;
         font-weight: 700;
         margin: 27px 0px 0px 11px;
+
+        @include media-breakpoint-down(sm) {
+          font-size: 3.5rem;
+          margin: 20px 0px 0px 2px;
+        }
       }
 
       p {
         font-size: 2rem;
         font-weight: 500;
         margin: -16px 0px 0px 48px;
+
+        @include media-breakpoint-down(sm) {
+          font-size: 1.6rem;
+          margin: -14px 0px 0px 28px;
+        }
+      }
+
+      @include media-breakpoint-down(sm) {
+        width: 8rem;
+        height: 8rem;
       }
     }
+
     .second {
       width: 11rem;
       height: 11rem;
@@ -35,14 +52,30 @@
         font-size: 4.7rem;
         font-weight: 700;
         margin: 27px 0px 0px 11px;
+
+        @include media-breakpoint-down(sm) {
+          font-size: 3.5rem;
+          margin: 20px 0px 0px 2px;
+        }
       }
 
       p {
         font-size: 2rem;
         font-weight: 500;
         margin: -16px 0px 0px 48px;
+
+        @include media-breakpoint-down(sm) {
+          font-size: 1.6rem;
+          margin: -14px 0px 0px 28px;
+        }
+      }
+
+      @include media-breakpoint-down(sm) {
+        width: 8rem;
+        height: 8rem;
       }
     }
+
     .third {
       width: 11rem;
       height: 11rem;
@@ -54,24 +87,50 @@
         font-size: 4.7rem;
         font-weight: 700;
         margin: 27px 0px 0px 11px;
+
+        @include media-breakpoint-down(sm) {
+          font-size: 3.5rem;
+          margin: 20px 0px 0px 2px;
+        }
       }
 
       p {
         font-size: 2rem;
         font-weight: 500;
         margin: -16px 0px 0px 48px;
+
+        @include media-breakpoint-down(sm) {
+          font-size: 1.6rem;
+          margin: -14px 0px 0px 28px;
+        }
+      }
+
+      @include media-breakpoint-down(sm) {
+        width: 8rem;
+        height: 8rem;
       }
     }
+
     .circle-text {
       h5 {
         font-weight: 500;
         margin: 36px 0px 0px 26px;
+
+        @include media-breakpoint-down(sm) {
+          margin: 18px 0px 0px 13px;
+          font-size: 1rem;
+        }
       }
 
       p {
         font-size: 13px;
         font-weight: 500;
         margin: 0px 0px 0px 37px;
+
+        @include media-breakpoint-down(sm) {
+          font-size: 12px;
+          margin: 0px 0px 0px 16px;
+        }
       }
     }
   }

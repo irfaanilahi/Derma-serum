@@ -1,4 +1,9 @@
 .derma-use-section {
+  @include media-breakpoint-down(md) {
+    .row {
+      flex-direction: column-reverse;
+    }
+  }
   .derma-use-heading {
     h5 {
       font-weight: 800;
