@@ -3,11 +3,11 @@
 @import "base/vars";
 
 // Layout
-@import "./Section/header";
-@import "./Section/footer-section.scss";
+@import "./Layout/header.scss";
+@import "./Layout/footer-section.scss";
 
 // Components
-@import "./Section/button.scss";
+@import "./Components/button.scss";
 
 // Sections
 @import "./Section/section-hero.scss";

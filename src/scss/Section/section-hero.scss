@@ -9,11 +9,24 @@
     margin-bottom: 4rem;
     background-image: url("../images/content/model.png");
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: bottom right;
     background-size: contain;
     padding: 5rem;
+    @include media-breakpoint-down(md) {
+      background-image: none;
+    }
+    @include media-breakpoint-down(xl) {
+      padding: 1rem;
+    }
 
     .hero-container {
+      background-image: url("../images/content/hero-badge.png");
+      background-repeat: no-repeat;
+      background-position: bottom right;
+      @include media-breakpoint-down(md) {
+        background-image: none;
+      }
+
       .top-text {
         font-size: 20px;
       }
@@ -22,11 +35,44 @@
         font-size: 3.3rem;
         font-weight: 700;
         margin-bottom: 1rem;
+        @include media-breakpoint-down(sm) {
+          font-size: 2.3rem;
+        }
       }
 
       .stars-img {
-        margin-top: 7.5rem;
+        margin-top: 3rem;
+      }
+      .hero-imgs {
+        @include media-breakpoint-up(md) {
+          display: none;
+          position: relative;
+        }
+        @include media-breakpoint-down(md) {
+          position: relative;
+        }
+        .model-img {
+          @include media-breakpoint-down(md) {
+            img {
+              width: 105%;
+              position: relative;
+              top: 15px;
+            }
+          }
+        }
+        .hero-badge {
+          @include media-breakpoint-down(md) {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            img {
+            }
+          }
+        }
       }
     }
+  }
+  @include media-breakpoint-down(md) {
+    text-align: center;
   }
 }

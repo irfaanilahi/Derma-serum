@@ -42,7 +42,7 @@
       font-weight: 700;
     }
     p {
-      padding-right: 12rem;
+      padding-right: 2rem;
     }
   }
   .boxes {
@@ -68,7 +68,7 @@
         img {
           width: 80%;
           @include media-breakpoint-down(lg) {
-            width: 65%;
+            width: 80%;
           }
         }
         @include media-breakpoint-down(lg) {
