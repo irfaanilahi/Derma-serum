@@ -18,6 +18,9 @@
       font-weight: 700;
       padding-right: 5px;
       margin-bottom: 1.5rem;
+      @include media-breakpoint-down(sm) {
+        font-size: 2rem;
+      }
     }
 
     p {

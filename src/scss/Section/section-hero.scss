@@ -65,7 +65,13 @@
             position: absolute;
             bottom: 0;
             right: 0;
-            img {
+          }
+          @include media-breakpoint-down(sm) {
+            max-width: 107px;
+          }
+          img {
+            @include media-breakpoint-down(sm) {
+              width: 100%;
             }
           }
         }

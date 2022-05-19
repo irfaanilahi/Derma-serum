@@ -8,95 +8,146 @@
     rgba(246, 246, 246, 1) 44%
   );
   margin-bottom: 7rem;
+
   @include media-breakpoint-down(md) {
     .row {
       flex-direction: column-reverse;
     }
   }
+
   .bottle-img {
     padding: 35px;
+
     img {
       width: 100%;
     }
+
     @include media-breakpoint-down(lg) {
       padding: 0px;
     }
+
     @include media-breakpoint-down(md) {
       padding: 0rem;
     }
   }
+
   .bottle-text {
     margin-bottom: 2rem;
     font-size: 1.1rem;
+
     h6 {
       letter-spacing: 0.3rem;
       font-size: 15px;
       font-weight: 800;
       color: #d19836;
+
       @include media-breakpoint-down(md) {
         margin-top: 2rem;
       }
     }
+
     h2 {
       font-size: 2.8rem;
       font-weight: 700;
+
+      @include media-breakpoint-down(sm) {
+        font-size: 2.2rem;
+      }
     }
+
     p {
       padding-right: 2rem;
     }
   }
+
   .boxes {
     display: flex;
     flex-direction: row;
     position: relative;
     right: 6rem;
-    justify-content: flex-start;
+
     .product-box1 {
-      // width: 17.5rem;
-      // height: 11rem;
       background-color: brown;
       margin-right: 1.5rem;
       border-radius: 5%;
       background-color: white;
       box-shadow: 1px 0px 4px lightgrey;
+
       .first-object-img {
         background-color: #e3c276d9;
         border-radius: 50%;
         padding: 0.8rem;
         display: flex;
         justify-content: center;
+
         img {
           width: 80%;
+
           @include media-breakpoint-down(lg) {
+            width: 85%;
+          }
+          @include media-breakpoint-down(sm) {
             width: 80%;
           }
         }
-        @include media-breakpoint-down(lg) {
-          padding: 0.2rem;
+
+        @include media-breakpoint-down(xl) {
+          min-width: 60px;
         }
+
+        @include media-breakpoint-down(lg) {
+          min-width: 48px;
+          padding: 0.5rem;
+        }
+
         @include media-breakpoint-down(md) {
+          max-width: 100px;
+          margin: auto;
           padding: 1.5rem;
         }
+        @include media-breakpoint-down(sm) {
+          max-width: 75px;
+          margin: auto;
+          padding: 1rem;
+        }
       }
+
       .first-object-heading {
         h6 {
           font-weight: 800;
+
+          @include media-breakpoint-down(xl) {
+            margin-left: 0.5rem;
+          }
+
+          @include media-breakpoint-down(lg) {
+            text-align: center;
+          }
+
+          @include media-breakpoint-down(md) {
+            text-align: center;
+            margin-top: 1rem;
+          }
         }
       }
+
       .first-object-text {
         margin-top: 4px;
+
         ul {
           li {
             font-size: 0.9rem;
           }
         }
       }
+
       @include media-breakpoint-down(md) {
         .row {
           flex-direction: inherit;
         }
       }
     }
+
     .product-box2 {
       // width: 17.5rem;
       // height: 11rem;
@@ -105,50 +156,96 @@
       border-radius: 5%;
       background-color: white;
       box-shadow: 1px 1px 6px lightgrey;
+
       .first-object-img {
         background-color: #e3c276d9;
         border-radius: 50%;
         padding: 0.5rem;
         display: flex;
         justify-content: center;
+
         img {
           width: 80%;
+
           @include media-breakpoint-down(lg) {
             width: 90%;
           }
+
           @include media-breakpoint-down(md) {
-            width: 80%;
+            width: 82%;
           }
         }
-        @include media-breakpoint-down(lg) {
-          padding: 0.1rem;
+
+        @include media-breakpoint-down(xl) {
+          min-width: 60px;
         }
-        // @include media-breakpoint-down(md) {
-        //   padding: 0rem;
-        // }
+
+        @include media-breakpoint-down(lg) {
+          min-width: 48px;
+          padding: 0.3rem;
+        }
+
+        @include media-breakpoint-down(md) {
+          max-width: 100px;
+          margin: auto;
+          padding: 1rem;
+        }
+        @include media-breakpoint-down(sm) {
+          max-width: 75px;
+          margin: auto;
+          padding: 1rem;
+        }
       }
+
       .first-object-heading {
         h6 {
           font-weight: 800;
+
+          @include media-breakpoint-down(xl) {
+            margin-left: 0.5rem;
+          }
+
+          @include media-breakpoint-down(lg) {
+            text-align: center;
+            margin-left: 0.5rem;
+          }
+
+          @include media-breakpoint-down(md) {
+            text-align: center;
+            margin-top: 1rem;
+          }
         }
       }
+
       .first-object-text {
         margin-top: 4px;
+
         ul {
           li {
             font-size: 0.9rem;
           }
         }
       }
+
       @include media-breakpoint-down(md) {
         .row {
           flex-direction: inherit;
         }
       }
+
+      @include media-breakpoint-down(md) {
+        margin-left: 0rem;
+      }
+
+      @include media-breakpoint-down(lg) {
+        margin-left: 0rem;
+      }
     }
+
     @include media-breakpoint-down(lg) {
       position: inherit;
     }
+
     @include media-breakpoint-down(md) {
       margin-bottom: 2rem;
     }
