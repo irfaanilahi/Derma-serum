@@ -39,6 +39,9 @@
         width: 7rem;
         height: 7rem;
       }
+      @include media-breakpoint-down(md) {
+        margin-right: 1rem;
+      }
     }
 
     .second {
@@ -75,6 +78,9 @@
         width: 7rem;
         height: 7rem;
       }
+      @include media-breakpoint-down(md) {
+        margin-right: 1rem;
+      }
     }
 
     .third {
@@ -109,6 +115,9 @@
       @include media-breakpoint-down(sm) {
         width: 7rem;
         height: 7rem;
+      }
+      @include media-breakpoint-down(md) {
+        margin-right: 1rem;
       }
     }
 

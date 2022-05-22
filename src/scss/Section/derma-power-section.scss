@@ -5,13 +5,20 @@
     }
   }
   margin-bottom: 5rem;
+  @include media-breakpoint-down(md) {
+    margin-bottom: 1rem;
+  }
   .derma-power-img {
     @include media-breakpoint-down(md) {
       display: flex;
       justify-content: center;
+      margin-bottom: 3rem;
     }
     img {
       width: 100%;
+      @include media-breakpoint-down(md) {
+        width: 67%;
+      }
     }
   }
   .derma-power-text {

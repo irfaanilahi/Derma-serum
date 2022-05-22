@@ -1,6 +1,4 @@
 .bottle-section {
-  margin-top: 4rem;
-  // height: 33rem;
   background: rgb(224, 223, 223);
   background: linear-gradient(
     0deg,
@@ -8,7 +6,9 @@
     rgba(246, 246, 246, 1) 44%
   );
   margin-bottom: 7rem;
-
+  @include media-breakpoint-down(md) {
+    margin-bottom: 4rem;
+  }
   @include media-breakpoint-down(md) {
     .row {
       flex-direction: column-reverse;
@@ -17,7 +17,6 @@
 
   .bottle-img {
     padding: 35px;
-
     img {
       width: 100%;
     }
@@ -27,7 +26,7 @@
     }
 
     @include media-breakpoint-down(md) {
-      padding: 0rem;
+      padding: 4rem;
     }
   }
 
@@ -72,6 +71,9 @@
       border-radius: 5%;
       background-color: white;
       box-shadow: 1px 0px 4px lightgrey;
+      @include media-breakpoint-down(sm) {
+        margin-right: 0.5rem;
+      }
 
       .first-object-img {
         background-color: #e3c276d9;
@@ -247,7 +249,7 @@
     }
 
     @include media-breakpoint-down(md) {
-      margin-bottom: 2rem;
+      margin-bottom: 0;
     }
   }
 }

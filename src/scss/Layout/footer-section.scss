@@ -38,6 +38,9 @@ footer {
       color: white;
       text-align: center;
       margin-top: 0.9rem;
+      @include media-breakpoint-down(sm) {
+        font-size: 0.8rem;
+      }
     }
   }
 }

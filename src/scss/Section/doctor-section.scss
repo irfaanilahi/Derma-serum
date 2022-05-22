@@ -6,35 +6,45 @@
     border-radius: 40px;
     padding: 4rem 2rem 4rem 3rem;
 
-    .doctor-text {
-      h6 {
-        letter-spacing: 0.3rem;
-        font-size: 15px;
-        font-weight: 800;
-        color: #d19836;
-        margin-bottom: 1rem;
+    .row {
+      @include media-breakpoint-down(md) {
+        flex-direction: column-reverse;
       }
+      .doctor-text {
+        h6 {
+          letter-spacing: 0.3rem;
+          font-size: 15px;
+          font-weight: 800;
+          color: #d19836;
+          margin-bottom: 1rem;
+        }
 
-      h1 {
-        font-size: 2.2rem;
-        font-weight: 700;
-        margin-bottom: 1.5rem;
-        @include media-breakpoint-down(sm) {
-          font-size: 2rem;
+        h1 {
+          font-size: 2.2rem;
+          font-weight: 700;
+          margin-bottom: 1.5rem;
+
+          @include media-breakpoint-down(sm) {
+            font-size: 2rem;
+          }
+        }
+
+        p {
+          font-size: 1.1rem;
         }
       }
 
-      p {
-        font-size: 1.1rem;
-      }
-    }
+      .doctor-img {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 2rem;
 
-    .doctor-img {
-      display: flex;
-      justify-content: center;
-
-      img {
-        width: 80%;
+        img {
+          width: 80%;
+          @include media-breakpoint-down(lg) {
+            width: 100%;
+          }
+        }
       }
     }
   }
